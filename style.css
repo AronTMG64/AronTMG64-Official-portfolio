@@ -30,7 +30,7 @@ body{
     padding: 0.8rem 2rem;
     border-radius: 50rem;
     border: 3px solid #53EA74;
-    width: 95rem;
+    width: 110rem;
     display: flex;
     justify-content: space-between;
     font-family: 'titan one';
@@ -46,7 +46,7 @@ a{
 #title-rectangle-wrap{
     transform: rotate(-1deg);
     max-width: 65%;
-    height: 40rem;
+    height: 50rem;
     padding: 3px;
     margin: auto;
     background: linear-gradient(to bottom right, #83EA53, #13D3A5);
@@ -67,7 +67,7 @@ a{
 #title-rectangle h1{
     color: #13EA4F;
     text-transform: uppercase;
-    font-size: 24rem;
+    font-size: 28rem;
     transform: rotate(5deg);
     text-shadow: -1rem -1rem #0C7529;
 }
@@ -75,7 +75,7 @@ a{
 #title-rectangle h2{
     color: white;
     text-transform: uppercase;
-    font-size: 12rem;
+    font-size: 14rem;
     transform: rotate(-2deg);
     margin-top: -1.9rem;
     text-shadow: -0.7rem -0.7rem #A4A2A2;
@@ -84,7 +84,7 @@ a{
 /* About me */
 
 #about-me{
-    height: 100vh;
+    height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -486,6 +486,8 @@ button:hover{
         background-size: 40rem;
     }
 
+    /* My work */
+
     #my-work{
         background-size: 40rem;
     }
@@ -538,5 +540,117 @@ button:hover{
 
     #mywork-container h1{
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 300px){
+       
+    /* Welcome */
+    
+    #navbar{
+        width: 15rem;
+    }
+    
+    #title-rectangle h1{
+        font-size: 4rem;
+    }
+
+    #title-rectangle h2{
+        font-size: 2.2rem;
+    }
+
+    #title-rectangle-wrap{
+        height: 7rem;
+    }
+
+    /* About me */
+
+    #about-me{
+        background-size: 20rem;
+    }
+
+    #about-me-text h1{
+        font-size: 1.8rem;
+    }
+
+    #about-me-text p{
+        font-size: 0.8rem;
+        text-shadow: -1px -1px #A4A2A2;
+    }
+
+    /* My work */
+
+    #my-work{
+        background-size: 30rem;
+    }
+
+    #mywork-container h1{
+        font-size: 1.8rem;
+    }
+    
+    #elmarket{
+        width: 85%;
+        height: 80%;
+        align-self: center;
+        justify-self: center;
+        transition: .15s;
+    }
+    #glass-page{
+        width: 95%;
+        height: 80%;
+        align-self: center;
+        justify-self: center;
+        transition: .15s;
+    }
+    #tribute-page{
+        height: 80%;
+        width: 80%;
+        align-self: center;
+        justify-self: center;
+        transition: .15s;
+    }
+    #technical-documentation-page{
+        height: 80%;
+        width: 80%;
+        align-self: center;
+        justify-self: center;
+        transition: .15s;
+    }
+    #survey-form{
+        height: 80%;
+        width: 85%;
+        align-self: center;
+        justify-self: center;
+        transition: .15s;
+    }
+    #landing-page{
+        height: 80%;
+        width: 75%;
+        align-self: center;
+        justify-self: center;
+        transition: .15s;
+    }
+
+    #github{
+        font-size: 1.5rem;
+        padding: .5rem 2rem;
+    }
+}
+
+@media (max-height: 750px){
+    #about-me{
+        height: 150vh;
+    }
+}
+
+@media (max-height: 550px){
+    #about-me{
+        height: 200vh;
+    }
+}
+
+@media (max-height: 40px){
+    #about-me{
+        height: 300vh;
     }
 }
