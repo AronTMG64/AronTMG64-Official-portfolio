@@ -16,13 +16,16 @@ body{
 
 /* Welcome */
 
+#welcome-section{
+    height: 100vh;
+}
+
 #navbar-container{
     display: flex;
     justify-content: center;
-    position: fixed;
     top: 1rem;
     width: 100%;
-    z-index: 5;
+    z-index: 100;
 }
 
 #navbar{
@@ -36,6 +39,7 @@ body{
     font-family: 'titan one';
     font-size: 4rem;
     margin-bottom: 8rem;
+    position: fixed;
 }
 
 a{
@@ -117,7 +121,7 @@ a{
     text-shadow: -2px -2px #a9a9a9;
 }  /* My work */
 
-#my-work{
+#projects{
     padding-top: 5rem;
     min-height: 100vh;
     margin-top: 400px;
@@ -448,7 +452,7 @@ button:hover{
     
     /* My work */
 
-    #my-work{
+    #projects{
          background-size: 50rem;
      }
 
@@ -488,7 +492,7 @@ button:hover{
 
     /* My work */
 
-    #my-work{
+    #projects{
         background-size: 40rem;
     }
     
@@ -580,7 +584,7 @@ button:hover{
 
     /* My work */
 
-    #my-work{
+    #projects{
         background-size: 30rem;
     }
 
