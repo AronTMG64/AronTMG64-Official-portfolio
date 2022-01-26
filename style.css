@@ -23,11 +23,11 @@ body{
 #navbar-container{
     display: flex;
     justify-content: center;
-    top: 1rem;
     width: 100%;
 }
 
 #navbar{
+    top: 1rem;
     background-color: #1c1c1c;
     padding: 0.8rem 2rem;
     border-radius: 50rem;
